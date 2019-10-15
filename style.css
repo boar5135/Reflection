@@ -1,1 +1,27 @@
+body {
+    background-color: #a29eaf;
+}
+h1 {
+    text-align:center;
+    background-color: #d6b164;
+    font-size:50px;
+}
+p {
+    width:500px;
+    margin-bottom: 50px;
+    background-color: #e1beb1;
+    margin-left:38%;
+    font-size: 20px;
+}
+table,th, td {
+    border: 5px solid #405266;
+        margin-bottom: 50px;
+}
 
+th {
+    font-size:20px;
+}
+td {
+    font-size:20px;
+    align-content: center;
+}
