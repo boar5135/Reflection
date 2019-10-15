@@ -22,5 +22,18 @@
 <td>Adds decoration</td>
         </tr>
     </table>
+    
+<p>For example, if you wanted to create an ordered list and insert some data into it, it might look something like this:<br />
+    var createol = function(data)
+{
+    d3.select("body")
+    .append("ol")
+    .selectAll("li")
+    .data(data)
+    .enter()
+    .append("li")
+    .text(message)</p>
+    
+    
 <p><b>What I Have Yet to Understand: </b>However, I still struggle with mapping. I understand that mapping applies a function to every array element. However, I am not sure how I was able to use the mapping element to get numbers out of an array. For example, in the penguin problem, I would use the mapping command when I wanted to utilize the numbers of the quiz grades. How does it know how to get the numbers out of the array? Is this something that is part of the definition of the mapping feature? Having done numerous problems with mapping, I recognize when to use it, but I do not feel comfortable explaining exactly how it knows what to do when given an array. </p>
 </html>
